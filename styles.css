@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+}
+
+.menu > * {
+    margin: 5px 0px;
+    padding: 3px 0 3px 20px;
+    color: white;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: gray;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 0 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 100%;
+    align-items: center;
+}
+
+.introduce > p {
+    text-align: center;
+    width: 80%;
+}
+
+.show {
+    width: 100%;
+    gap: 10px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.show-content {
+    display: flex;
+    flex-direction: column;
+}
